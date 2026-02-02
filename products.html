@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+        h3 {
+            text-align: center;
+            padding: 3;
+        }
+
+        .card-header {
+            background-color: #abbfb6;
+            color: white;
+            font-weight: 600;
+            text-align: center;
+            border-bottom: 2px solid #202c28;
+            border-radius: 6px 6px 0 0;
+        }
+
+        span {
+            background-color: #d4b483;
+            color: white;
+            padding: 4px 10px;
+            font-weight: 600;
+            border-radius: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        b {
+            color: #c5715a;
+
+        }
+
+        #ZenNav {
+            color: #d1fdec;
+
+        }
+
+        #BgNav {
+            background-color: #98bbae;
+        }
+
+        #Footer {
+            background-color: #8ea098;
+            padding: 30px;
+        }
+
+        #navbarcollapse {
+            justify-content: end;
+        }
+        body{
+            background-color: #bec9c4;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- section 1 -->
+        <!-- it contains the navigation bar -->
+        <section class="row">
+            <div class="col-md-12">
+                <!-- a nav with navbar content -->
+                <nav class="navbar navbar-expand-md " id="BgNav">
+                    <a href="" class="navbar-brand " id="ZenNav">
+                        <img src="images/sports2.png" alt="Logo" width="40" height="30"
+                            class="d-inline-block align-text-top">
+                        Zen Sports</a>
+                    <button class="navbar-toggler" data-bs-target="#navbarcollapse" data-bs-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- a division containing the links -->
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <div class="navbar-nav">
+                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="products.html" class="nav-link">Products</a>
+                            <a href="" class="nav-link">On Sale</a>
+                            <a href="" class="nav-link">Contact Us</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- end of section 1 -->
+
+        <!-- carousel goes here -->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carop2.jpg" class="d-block w-100" alt="Slide 1" height="400px">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carop3.jpg" class="d-block w-100" alt="Slide 2" height="400px">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carouselproducts.jpg" class="d-block w-100" alt="Slide 3" height="400px">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+        <h2 class="text-center">Our Products</h2>
+        <!-- section 2  -->
+        <section class="row">
+            <h2>Jerseys</h2>
+            <!-- child 1 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        NBA Jersey
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/NBA jersey.jpg" alt="Cleats" width="100%" height="220px">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Top tier Jersey for Lakers.Definitely a 10/10!</p>
+                        <b>Ksh 1,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 2 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Arsenal Jersey
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/Arsenal jersey.jpg" alt="Cleats" width="100%" height="220px">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Premium quality jersey to feel like Saka.</p>
+                        <b>Ksh 1,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 3 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Lakers Jersey
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/lakers jersey.jpg" alt="Cleats" width="100%" height="220px">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Another Lakers jersey in a different font.</p>
+                        <b>Ksh 1,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 4 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Man united jersey
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/man utd jersey].jpg" alt="Cleats" width="100%" height="220px">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>A jersey to feel like Patrick Ballon D'orgu</p>
+                        <b>Ksh 1,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <br> <br> <br>
+        <!-- end of section 1 -->
+        <!-- section 2 -->
+        <section class="row">
+            <h2>Balls</h2>
+            <!-- child 1 -->
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Soccer Ball
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/foorballl.jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>A soccer ball with great quality.</p>
+                        <b>Ksh 3,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 2 -->
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Tennis Ball
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/tennisball.jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Comes in a 10 pack and a 30 pack.</p>
+                        <b>Ksh 5,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 3 -->
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        American football
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/american football.jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Designed for good grip.</p>
+                        <b>Ksh 5,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br> <br> <br>
+        <!-- end of section 2 -->
+        <!-- section 3 -->
+        <section class="row">
+            <h2>Bikes</h2>
+            <!-- child 1 -->
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Motorbike
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/motorbike.jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Designed for speed and power.</p>
+                        <b>Ksh 180,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 2 -->
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Bicycle
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/bicycle (2).jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Designed for balance</p>
+                        <b>Ksh 15,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 3 -->
+        <!-- section 4 -->
+        <section class="row">
+            <h2>Others</h2>
+            <!-- child 1 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        NBA Jersey
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/NBA jersey.jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Performance-focused cleats engineered for speed, grip, and control on the field. Designed to
+                            enhance agility and precision.</p>
+                        <b>Ksh 5,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 2 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Arsenal Jersey
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/Arsenal jersey.jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Performance-focused cleats engineered for speed, grip, and control on the field. Designed to
+                            enhance agility and precision.</p>
+                        <b>Ksh 5,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 3 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Football Cleats
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Performance-focused cleats engineered for speed, grip, and control on the field. Designed to
+                            enhance agility and precision.</p>
+                        <b>Ksh 5,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 4 -->
+
+        <!-- section 5 -->
+        <section class="row">
+            <!-- child 1 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        NBA Jersey
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/NBA jersey.jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Performance-focused cleats engineered for speed, grip, and control on the field. Designed to
+                            enhance agility and precision.</p>
+                        <b>Ksh 5,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 2 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Arsenal Jersey
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/Arsenal jersey.jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Performance-focused cleats engineered for speed, grip, and control on the field. Designed to
+                            enhance agility and precision.</p>
+                        <b>Ksh 5,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- child 3 -->
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <!-- card header  -->
+                    <div class="card-header">
+                        Football Cleats
+                    </div>
+                    <!-- card body  -->
+                    <div class="card-body">
+                        <img src="images/jpg" alt="Cleats" width="100%">
+                    </div>
+                    <!-- card footer  -->
+                    <div class="card-footer">
+                        <p>Performance-focused cleats engineered for speed, grip, and control on the field. Designed to
+                            enhance agility and precision.</p>
+                        <b>Ksh 5,500</b> <br>
+                        <span class="badge">Most Popular</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of section 5 -->
+
+        <!-- footer  -->
+        <section class="row" id="Footer">
+            <!-- child 1 -->
+            <div class="col-md-4 text-white">
+                <h2>ZEN SPORTS</h2>
+                <p>
+                    You do the sport you love, we make the equipment for it. From research and development to production
+                    and logistics. For you this means: everything for your sport at unbeatable prices. ZEN SPORTS. We do
+                    sports.
+                </p>
+
+            </div>
+
+            <!-- child 2 -->
+            <div class="col-md-4">
+                <h2 class="text-center text-white">Contact Us</h2>
+                <form action="">
+                    <input type="email" placeholder="Enter your email" class="form-control"> <br> <br>
+                    <textarea name="" id="" class="form-control" placeholder="Leave a comment"></textarea> <br>
+                    <input type="submit" value="Send message" class="btn btn-outline-danger">
+                </form>
+            </div>
+
+            <!-- child 3 -->
+            <div class="col-md-4">
+                <h2 class="text-white text-center">Stay connected</h2>
+                <a href="https://facebook.com">
+                    <img src="images/fb.png" alt="Facebook">
+                </a> &nbsp; &nbsp; &nbsp;&nbsp;
+                <a href="https://instagram.com">
+                    <img src="images/in.png" alt="">
+                </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="https://twitter.com">
+                    <img src="images/x.png" alt="">
+                </a> <br>
+                <p>In this platforms we have employed people who will be able to attend to you 24/7.Also follow us in
+                    order not to miss out on deals!! </p>
+            </div>
+        </section>
+
+        <footer class="bg-dark  text-center p-2">
+            <b class="text-danger ">Developed by Sophie &copy; 2026. All rights reserved.</b>
+        </footer>
+        <!-- end of footer  -->
+    </div>
+</body>
+
+</html>
