@@ -15,7 +15,7 @@
 
         .card-header {
             background-color: #abbfb6;
-            color: white;
+            color: rgb(12, 0, 0);
             font-weight: 600;
             text-align: center;
             border-bottom: 2px solid #202c28;
@@ -32,10 +32,6 @@
             letter-spacing: 0.5px;
         }
 
-        b {
-            color: #c5715a;
-
-        }
 
         #ZenNav {
             color: #d1fdec;
@@ -47,13 +43,34 @@
         }
 
         #Footer {
-            background-color: #8ea098;
             padding: 30px;
+            width: 100%;
+            height: 400px;
+            background-image: url(images/davide-aracri-bAuokMtkMCA-unsplash.jpg);
+            background-size: 100% 100%;
         }
+
+
 
         #navbarcollapse {
             justify-content: end;
         }
+
+        body {
+            background-color: #98bbae;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #Footerm {
+            color: rgb(78, 27, 27);
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            text-decoration: underline rgb(43, 1, 1) 3px;
+        }
+        
     </style>
 
 </head>
@@ -119,9 +136,9 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-
+            <br> <br>
         </div>
-        <h2 class="text-center">Our Products</h2>
+        <h1 class="text-center">Our Products</h1>
         <!-- section 2  -->
         <section class="row">
             <h2>Jerseys</h2>
@@ -354,14 +371,15 @@
                 <a href="https://twitter.com">
                     <img src="images/x.png" alt="">
                 </a> <br>
-                <p>In this platforms we have employed people who will be able to attend to you 24/7.Also follow us in
+                <p class="text-white">In this platforms we have employed people who will be able to attend to you
+                    24/7.Also follow us in
                     order not to miss out on deals!! </p>
             </div>
         </section>
-
-        <footer class="bg-dark  text-center p-2">
-            <b class="text-danger ">Developed by Sophie &copy; 2026. All rights reserved.</b>
+        <footer id="Footerm">
+            <b>Developed by Sophie &copy; 2026. All rights reserved.</b>
         </footer>
+
         <!-- end of footer  -->
     </div>
 </body>
